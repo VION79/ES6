@@ -1,5 +1,6 @@
 /*
 Use Destructuring Assignment to Pass an Object as a Function's Parameters
+
 In some cases, you can destructure the object in a function argument itself.
 
 Consider the code below:
