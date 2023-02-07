@@ -51,12 +51,14 @@ const makeServerRequest = new Promise((resolve, reject) => {
 E:\githubrepo_local\ES6>node 29promiseCatch.js
 We got the data
 
+*/
+/* 
 E:\githubrepo_local\ES6>node 29promiseCatch.js
 Data not received
 node:internal/process/promises:288
-            triggerUncaughtException(err, true /* fromPromise */);
+            triggerUncaughtException(err, true /* fromPromise );
             ^
-
+/*
 [UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "Data not received".] {
   code: 'ERR_UNHANDLED_REJECTION'
 }
